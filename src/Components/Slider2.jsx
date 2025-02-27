@@ -25,7 +25,7 @@ export default function Slider2({ features }) {
     <div className="relative w-full mx-auto group overflow-hidden p-6 bg-gray-100">
       {/* Left Button */}
       <button
-        className="cursor-pointer z-10 absolute left-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
+        className="lg:visible invisible cursor-pointer z-10 absolute left-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
         onClick={() => scroll("left")}
       >
         <ChevronLeft size={30} />
@@ -54,7 +54,7 @@ export default function Slider2({ features }) {
 
       {/* Right Button */}
       <button
-        className="cursor-pointer absolute right-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
+        className="lg:visible invisible cursor-pointer absolute right-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
         onClick={() => scroll("right")}
       >
         <ChevronRight size={30} />
