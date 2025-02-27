@@ -39,7 +39,7 @@ export default function Slider2({ features }) {
         {features.map((feature, index) => (
           <div
             key={index}
-            className={`cursor-pointer t hover:scale-[101%] transition-transform duration-500 ease-in-out w-[320px] h-[230px] ${feature.First === "f" ? "lg:ml-24" : ""} ${
+            className={`cursor-pointer t hover:scale-[101%] transition-transform duration-500 ease-in-out min-w-[320px] h-[230px] ${feature.First === "f" ? "lg:ml-24" : ""} ${
                 feature.Last === "l" ? "lg:mr-24" : ""
               } bg-white p-6 rounded-xl shadow-md hover:shadow-xl hover:shadow-gray-300 transition-shadow duration-300 flex flex-col  items-start space-y-3`}
           >
