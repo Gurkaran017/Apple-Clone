@@ -33,7 +33,7 @@ export default function Slider1({ products }) {
             key={index}
             className={` ${product.First === "f" ? "ml-32" : ""} ${
               product.Last === "l" ? "mr-32" : ""
-            } transition-transform duration-500 ease-in-out hover:shadow-lg hover:scale-[101%] relative lg:min-w-[400px] min-w-[320px] h-[500px] snap-center flex-shrink-0 rounded-3xl overflow-hidden `}
+            } transition-transform duration-500 ease-in-out hover:shadow-lg hover:scale-[101%] relative lg:w-[400px]  w-[320px] h-[500px] snap-center flex-shrink-0 rounded-3xl overflow-hidden `}
           >
             <img
               src={product.image}
