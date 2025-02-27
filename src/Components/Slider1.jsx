@@ -17,7 +17,7 @@ export default function Slider1({ products }) {
     <div className="relative w-full mx-auto group m-10 overflow-hidden">
       {/* Left Button */}
       <button
-        className="cursor-pointer z-10 absolute left-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
+        className="lg:visible invisible cursor-pointer z-10 absolute left-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
         onClick={() => scroll("left")}
       >
         <ChevronLeft size={35} />
@@ -33,7 +33,7 @@ export default function Slider1({ products }) {
             key={index}
             className={` ${product.First === "f" ? "ml-32" : ""} ${
               product.Last === "l" ? "mr-32" : ""
-            } transition-transform duration-500 ease-in-out hover:shadow-lg hover:scale-[101%] relative lg:min-w-[400px] snap-center flex-shrink-0 rounded-3xl overflow-hidden `}
+            } transition-transform duration-500 ease-in-out hover:shadow-lg hover:scale-[101%] relative lg:min-w-[400px] min-w-[320px] h-[500px] snap-center flex-shrink-0 rounded-3xl overflow-hidden `}
           >
             <img
               src={product.image}
@@ -59,7 +59,7 @@ export default function Slider1({ products }) {
 
       {/* Right Button */}
       <button
-        className="cursor-pointer absolute right-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
+        className="lg:visible invisible cursor-pointer absolute right-6 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-70 transition-opacity duration-1000 bg-gray-300 shadow-md rounded-full p-2"
         onClick={() => scroll("right")}
       >
         <ChevronRight size={35} />
