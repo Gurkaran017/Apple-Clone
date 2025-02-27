@@ -3,7 +3,7 @@ import girl from "../assets/images/girl.jpeg";
 import { FaApple } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import mac1 from "../assets/images/mac.png";
+import mac from "../assets/images/mac1.png";
 import iphone from "../assets/images/iphone.png";
 import ipad from "../assets/images/ipad.png";
 import Apple_Watch from "../assets/images/Apple_Watch.png";
