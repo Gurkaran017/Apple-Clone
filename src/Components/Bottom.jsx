@@ -102,7 +102,7 @@ const Bottom = () => {
       image: MacPro,
     },
     {
-      name: "Get up to 24 months of No Cost EMI plus up to ₹10000.00 instant cashbacks on selected products with eligible cards.",
+      name: "Get up to 24 months of No Cost EMI on selected products with eligible cards.",
       I: "W",
       image: costEMI,
     },

@@ -24,13 +24,13 @@ const Footer = () => {
             Quick Links
           </h1>
           <div className="flex lg:space-x-4 space-x-2 ">
-            <button className="flex items-center  border lg:text-sm text-[10px] border-gray-800 text-gray-900 rounded-3xl  lg:px-4 px-3 lg:py-2 py-1">
+            <button className="flex items-center hover:text-white hover:bg-black border lg:text-sm text-[10px] border-gray-800 text-gray-900 rounded-3xl  lg:px-4 px-3 lg:py-2 py-1">
               Order Status <GoArrowUpRight className="mt-1" />
             </button>
-            <button className="border lg:text-sm text-[10px] border-gray-800 text-gray-900 rounded-3xl lg:px-4 px-2 py-2">
+            <button className="border lg:text-sm hover:text-white hover:bg-black text-[10px] border-gray-800 text-gray-900 rounded-3xl lg:px-4 px-2 py-2">
               Shoping Help
             </button>
-            <button className="flex border lg:text-sm text-[10px] border-gray-800 text-gray-900 rounded-3xl lg:px-2 px-3 py-2">
+            <button className="flex border lg:text-sm hover:text-white hover:bg-black text-[10px] border-gray-800 text-gray-900 rounded-3xl lg:px-2 px-3 py-2">
               Your Saves <GoArrowUpRight className="mt-1" />
             </button>
           </div>
