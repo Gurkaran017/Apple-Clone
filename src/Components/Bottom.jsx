@@ -43,7 +43,7 @@ import Ultra from "../assets/images/Ultramarine.jpeg";
 import Fine from "../assets/images/FineWoven.jpeg";
 import charger from "../assets/images/Charger.jpeg";
 import Slider3 from "./Slider3";
-import get_3 from "../assets/images/get_3.jpeg";
+import get_3 from "../assets/images/Get_3.jpeg";
 import airpods_4 from "../assets/images/airpods-4.jpeg";
 import airpods_pro_2 from "../assets/images/airpods-pro-2.jpeg";
 import powerbeat from "../assets/images/powerbeat.jpeg";
